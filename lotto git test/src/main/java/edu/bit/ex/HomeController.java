@@ -26,6 +26,7 @@ public class HomeController {
 		return "home"; // return 이 뷰의 이름를 찾는 거니 중요!!!!!!
 	}
 	
+	//수정
 	@RequestMapping("form/score")
 	public String score_p() {
 		System.out.println("score 호출");
